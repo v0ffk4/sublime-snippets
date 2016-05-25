@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6qwz4EgG020QGMhyR6nz_KNQFQPB_zjo&callback=initMap" type="text/javascript"></script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>~gmap</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" async></script>
+]]></content>
+<tabTrigger>~jqcdn</tabTrigger>
+<scope>text.html</scope>
+<description>Link to jQuery CDN</description>
+</snippet>
