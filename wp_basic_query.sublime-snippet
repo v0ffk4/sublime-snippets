@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<?php 
+	
+	\$args = array(
+		'post_type' => 'common',
+		'name' => 'о-компании'
+	);
+
+	\$the_query = new WP_query( \$args );
+
+?>
+
+<?php if( have_posts() ) : while( \$the_query -> have_posts() ) : \$the_query -> the_post() ?>
+
+	<h2><?php the_title() ?></h2>
+	<p><?php the_field( text ) ?></p>
+
+<?php endwhile; else: ?>
+
+	<p>darkness</p>
+
+<?php endif; ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>~wp_basic_query</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+	<description>Basic wordpress query</description>
+</snippet>
